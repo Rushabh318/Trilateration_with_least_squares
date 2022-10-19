@@ -1,4 +1,4 @@
-**2D Position estimation using trilateration from time of flight sensors and least squares optimization.
+**2D Position estimation using trilateration from time of flight sensors and least squares optimization.**
 
 trilaterion/math.py accepts a .txt file with a list of radii of measurements from the time of flight sensors in the area of interest and performs trilateration over these radii based on the number of senors. Least squares optimization gives a 2D location along with a radius of uncertainity as the output.
 
